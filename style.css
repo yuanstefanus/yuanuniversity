@@ -1,0 +1,624 @@
+@font-face{
+    font-family: 'Merriweather' ;
+    src: url(fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', 'Merriweather', sans-serif;
+}
+
+.wrapper{
+    background-color: black;
+    height: 320px;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.logoicon{
+    padding: 1%;
+}
+
+.menu-icon{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 2%;
+}
+
+.site-header{
+    background-color: rgb(0, 0, 0);
+    height: fit-content;
+  
+}
+
+.garis{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.container{
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 0%;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(100%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 30px 70px;
+    font-size: 50px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.search-bar button img{
+    width: 50px;
+    color: black;
+}
+
+.search-bar button{
+    margin-right: 10px;
+    border: 0;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: white;
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.navigation{
+    padding-top: 5%;
+    overflow: hidden;
+    padding-left: 4.5%;
+    justify-content: left;
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+    height: fit-content;
+    justify-content: left;
+    padding-bottom: 0%;
+    position:unset;
+}
+
+.navigation ul{
+    width: auto;
+}
+
+.navlink{
+    float: left;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    justify-content: center;
+    padding: 30px 100px;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.navigation a:hover{
+    color:rgb(255, 217, 0)
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(images/university.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main{
+    width: 68%;
+    height: fit-content;
+    float: left;
+    background-color: transparent;
+    padding-top: 1%;
+}
+
+.aside{
+    width: 30%;
+    height: fit-content;
+    float: right;
+    background:transparent;
+    padding-top: 5.6%;
+    padding-right: 1%;
+}
+
+.section1{
+    justify-content: center;
+    padding-top: 130px;
+    background:transparent;
+}
+
+.judul{
+    font-weight: bold;
+    font-size: 150px;
+    margin-left: 5%;
+    padding-left: 5%;
+    letter-spacing: 2px;
+}
+
+.judul2{
+    background-color: rgb(255, 230, 0);
+    background-size: 0;
+    font-weight: bold;
+    font-size: 150px;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding-left: 5%;
+    letter-spacing: 2px;
+}
+
+
+.kotak{
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 88%;
+    height: fit-content;
+    background-color: rgb(255, 230, 0);
+    justify-content: right;
+    align-items: center;
+}
+
+.kotak-gambar{
+    margin-top: 2%;
+    margin-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5% 0% 5% 5%;
+}
+
+.judulcaption{
+    padding-top: 50px;
+    font-size: 100px;
+    margin-right: 5%;
+    padding-left: 7%;
+    text-align: right;
+}
+
+.caption{
+    font-size: 50px;
+    text-align: right;
+    text-align: justify;
+    width: auto;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-family: 'Merriweather';
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+
+.judul-2{
+    font-weight: bold;
+    font-size: 150px;
+    text-align: right;
+    margin-right: 9%;
+    padding-top: 7%;
+    letter-spacing: 2px;
+}
+
+.judul2-2{
+    background-color: rgb(185, 223, 255);
+    background-size: 0;
+    font-weight: bold;
+    font-size: 150px;
+    margin-left: 5%;
+    margin-right: 7%;
+    padding-left: 5%;
+    padding-right: 2%;
+    text-align: right;
+    letter-spacing: 2px;
+}
+
+.kotak2{
+    margin-left: 5%;
+    margin-right: 0%;
+    width: 88%;
+    height: fit-content;
+    background-color: rgb(185, 223, 255);
+    justify-content: right;
+    align-items: center;
+}
+
+.kotak-gambar2{
+    margin-top: 2%;
+    margin-left: 7%;
+    padding-right: 7%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5% 0% 5% 5%;
+}
+
+.judulcaption2{
+    padding-top: 50px;
+    font-size: 100px;
+    margin-right: 3%;
+    padding-left: 7%;
+    text-align: left;
+}
+
+.caption2{
+
+    font-size: 50px;
+    margin-right:7% ;
+    margin-left: 5%;
+    text-align: left;
+    text-align: justify;
+    width: auto;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+    font-family: 'Merriweather';
+    line-height: 90px;
+    letter-spacing: 2px;
+}
+
+.section2{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.about{
+    font-size: 120px;
+    text-align: center;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding-bottom: 50px;
+    letter-spacing: 10px;
+}
+
+.column{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 5%;
+}
+
+
+.columntitle{
+    color: black;
+    font-size: 80px;
+    padding-top: 8%;
+}
+
+.left{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border: 0;
+    box-shadow: 0px 5px 20px 0.01px ;
+}
+
+
+.center{
+    background-color: white;
+    width: 30%;
+    border: 0;
+    box-shadow: 0px 5px 20px 0.01px ;
+}
+
+.right{
+    background-color: white;
+    width: 30%;
+    border: 0;
+    box-shadow: 0px 5px 20px 0.01px ;
+    padding-bottom: 5%;
+}
+
+.left:hover{
+    color:rgb(142, 142, 234);
+    transition: 10ms;
+}
+
+.center:hover{
+    color:rgb(142, 142, 234);
+    transition: 10ms;
+}
+
+.right:hover{
+    color:rgb(142, 142, 234);
+    transition: 10ms;
+}
+
+.image{
+    width: 100%;
+    height: fit-content;
+}
+
+.column-caption{
+    font-size: 50px;
+    font-family: 'Merriweather';
+    text-align: center;
+    text-align: justify;
+    line-height: 70px;
+    padding: 10%;
+    color: black;
+    padding-bottom: 20%;
+}
+
+.column-readmore{
+    font-size: 50px;
+}
+
+.section3{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:5% ;
+    background-color: rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0 20px 20px 1px #ddd;
+    margin-left: 5.5%;
+    margin-right: 7%;
+    justify-content: center;
+}
+
+.kontak{
+    font-size: 120px;
+    text-align: center;
+    padding-bottom: 70px;
+    letter-spacing: 10px;
+    
+}
+
+.table{
+    width: 100%;
+    height: 1500px;
+    border-collapse: collapse;
+    box-shadow: 0 20px 20px 1px #ddd;
+    font-size: 50px;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.table th .table td{
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 7px;
+    margin: 0;
+    
+}
+
+.table th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.table tbody tr:nth-child(3){
+    background-color: rgb(234, 227, 186);
+}
+.table tbody tr:nth-child(4){
+    background-color: rgb(234, 227, 186);
+}
+.table tbody tr:nth-child(5){
+    background-color: rgb(234, 227, 186);
+}
+.table tbody tr:nth-child(6){
+    background-color: rgb(234, 227, 186);
+}
+
+.table tbody tr:nth-child(7){
+    background-color: rgb(244, 244, 151);
+}
+.table tbody tr:nth-child(8){
+    background-color: rgb(244, 244, 151);
+}
+.table tbody tr:nth-child(9){
+    background-color: rgb(244, 244, 151);
+}
+.table tbody tr:nth-child(10){
+    background-color: rgb(234, 227, 186);
+}
+.table tbody tr:nth-child(11){
+    background-color: rgb(234, 227, 186);
+}
+.table tbody tr:nth-child(12){
+    background-color: rgb(244, 244, 151);
+}
+.table tbody tr:nth-child(13){
+    background-color: rgb(234, 227, 186);
+}
+
+.captionkontak{
+    font-size: 50px;
+    font-family: 'Merriweather';
+    line-height: 90px;
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.contact-more{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.section4{
+    margin-right: 10%;
+    margin-top: 5%;
+    box-shadow: 0 20px 20px 1px #ddd;
+    padding-bottom: 5%;
+    background-color: white
+}
+
+.judulnews{
+    font-size: 100px;
+    text-align: left;
+    background-color: rgb(185, 223, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+
+.iklan{
+    background-color: rgb(255, 255, 255);
+}
+
+.news{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: white;
+    box-shadow: 0 20px 20px 1px #ddd
+}
+
+.gambarnews{
+    width: 400px;
+    height: 430px;
+}
+
+.wordiklan{
+    margin: 2%;
+}
+
+.headlineiklan{
+    font-size: 70px;
+    margin-left: 2%;
+    text-align: left;
+    justify-content: center;
+    /* margin-right: 3%; */
+}
+
+.captioniklan{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Merriweather';
+    font-size: 40px;
+    margin-left: 2%;
+    text-align: left;
+    text-align: justify;
+    /* margin-right: 30px; */
+}
+
+.video{
+    margin-top: 10%;
+    justify-content: center;
+    background-color: white;
+}
+
+.campustour{
+
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+}
+
+.captioncampustour{
+    font-size: 50px;
+    font-family: 'Merriweather';
+    line-height: 90px;
+    text-align: justify;
+    padding: 5%;
+    background-color: white;
+}
+
+.footer{
+    margin-top: 7%;
+    float: left;
+    background-color:  black;
+    clear: both;
+    width: 100%;
+    height: 1000px;
+}
+
+.body .footer{
+    display: table-cell;
+}
+
+.logofooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3%;
+}
+
+.linkfooter{
+    text-decoration: none;
+    font-size: 70px;
+    color: white;
+    word-spacing: 2px;
+}
+
+.linkfooter:hover{
+    color: rgb(255, 230, 0);
+}
+
+.copyright{
+    color: white;
+    font-size: 45px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.kontenpagelain{
+    margin-top: 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    justify-content: center; 
+}
+
+
+
+
+
+
+
